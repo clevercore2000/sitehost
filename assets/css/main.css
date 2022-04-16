@@ -8,7 +8,19 @@ body{
 /*======================================================================
 ##		Global Settings
 =======================================================================*/
+.btndown {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+}
 
+/* Darker background on mouse-over */
+.btndown:hover {
+  background-color: RoyalBlue;
+}
 @font-face {
     font-family:'catsi';
     src: url('catsi-webfont.woff2') format('woff2'),
@@ -266,6 +278,11 @@ div.sava {
 background-color: white;
 	border-radius:5px;
 }
+div.sava h4{
+	padding: 25px;
+	font-family:'Roboto';
+
+}
 /*======================================================================
 ##		Product Section
 =======================================================================*/
@@ -431,10 +448,16 @@ background-color: white;
 	background-image: url(../images/shop-header.jpg);
 }
 .contact-header .intro{
-	background-image: url(../images/contact-header.jpg);
+	background-image: url("../images/contact-header.png");
 }
 .about-header .intro{
-	background-image: url("../images/about-header.jpg");
+	background-image: url("../images/about-header.png");
+}
+.fll-header .intro{
+	background-image: url("../images/1060x480_FLL_tournament.png");
+}
+.stl-header .intro{
+	background-image: url("../images/header-about.png");
 }
 .about .page-bgc{
 	padding-bottom: 0;
@@ -719,6 +742,7 @@ background-color: white;
 	.machine-man{
 		padding-left: 15px;
 		padding-right: 15px;
+		padding-bottom: 50px;
 	}
 }
 @media (min-width: 678px){
@@ -728,7 +752,7 @@ background-color: white;
 	.machine-man .row{
 		background-image: url(../images/cc.png);
 		background-repeat: no-repeat;
-		background-position: right 60px bottom 15px;
+		background-position: right 60px bottom 60px;
 		background-size: 300px;
 	}
 }
@@ -752,13 +776,15 @@ background-color: white;
 }
 .team-img-detail h4{
 	color: #111;
-	padding-top: 30px;
+	padding-top: 15px;
+	
 }
 .team-img-detail h4, .team-img-detail h5{
 	text-transform: uppercase;
 	font-weight: 400;
 	letter-spacing: 2px;
 	margin: 0;
+	padding-bottom: 15px;
 }
 .team-img-detail p{
 	padding: 20px;
