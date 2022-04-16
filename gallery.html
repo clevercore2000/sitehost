@@ -1,26 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
 <style>
+	@keyframes img {
+        0% {
+            transform: scale(1.0);
+            -webkit-transform: scale(1.0);
+        }
+        100% {
+            transform: scale(2.0);
+            -webkit-transform: scale(1.1);
+        }
+    }
 div.gallery {
-  margin: 5px;
-  border: 1px solid #ccc;
-  float: left;
-  width: 180px;
+	align-items: center;
+	margin:30px;
+  width:auto;
+	vertical-align: middle;
+	background-color: white;
+	border-radius:5px;
 }
 
 div.gallery:hover {
-  border: 1px solid #777;
+		animation-name: img;
+	animation-duration: 1s;
 }
 
 div.gallery img {
   width: 100%;
   height: auto;
+	border-radius:5px;
 }
 
 div.desc {
   padding: 15px;
   text-align: center;
+color: black;
 }
+
 </style>	
 
     <head>
@@ -28,13 +44,17 @@ div.desc {
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Robot | FAQ</title>
+        <title>Gallery</title>
 
         <!-- CSS -->
 
         <!-- google fonts -->
         <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,700' rel='stylesheet' type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+		  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
 
         <!-- files -->
         <link href="assets/css/bootstrap.min.css" rel="stylesheet">
@@ -62,11 +82,10 @@ div.desc {
               </div>
 </div>
             </div>
-        </div>
         
     <!-- Header -->
 
-        <section id="header" class="main-header fll-header inner-header">
+        <section id="header" class="main-header gallery-header inner-header">
             <div class="container">
 
                 <div class="row">
@@ -87,6 +106,7 @@ div.desc {
                                 <li></li>
                                 <li ><a href="robot.html">Our robot&nbsp;</a></li>
 								<li><a href="stl.html">3d Solutions</a></li>
+								<li class="active"><a href="gallery.html" >Gallery</a></li>
                                 <li><a href="contact.html">Contact</a></li>
                             </ul>
                         </div><!-- /.navbar-collapse -->
@@ -108,35 +128,214 @@ div.desc {
 
     <!-- FAQ -->
 	<section>
+		  <div class="col-sm-6 col-lg-4">
 <div class="gallery">
-  <a target="_blank" href="img_5terre.jpg">
-    <img src="img_5terre.jpg" alt="Cinque Terre" width="600" height="400">
+  <a target="_blank" href="assets/images/gallery/sezon_3/3.jpg">
+    <img src="assets/images/gallery/sezon_3/3.jpg" alt="Cinque Terre" width="600" height="400">
   </a>
-  <div class="desc">Add a description of the image here</div>
+		    </div>
 </div>
-
+<div class="col-sm-6 col-lg-4">
 <div class="gallery">
-  <a target="_blank" href="img_forest.jpg">
-    <img src="img_forest.jpg" alt="Forest" width="600" height="400">
+  <a target="_blank" href="assets/images/gallery/sezon_3/4.jpg">
+    <img src="assets/images/gallery/sezon_3/4.jpg" alt="Forest" width="600" height="400">
   </a>
-  <div class="desc">Add a description of the image here</div>
+ 
 </div>
-
+		  </div>
+		  <div class="col-sm-6 col-lg-4">
 <div class="gallery">
-  <a target="_blank" href="img_lights.jpg">
-    <img src="img_lights.jpg" alt="Northern Lights" width="600" height="400">
+  <a target="_blank" href="assets/images/gallery/sezon_3/5.jpg">
+    <img src="assets/images/gallery/sezon_3/5.jpg" alt="Northern Lights" width="600" height="400">
   </a>
-  <div class="desc">Add a description of the image here</div>
-</div>
-
+</div>			 
+			</div>
+			<div class="col-sm-6 col-lg-4">
 <div class="gallery">
-  <a target="_blank" href="../robot_factory-master/assets/images/galerie/s4/20190315_150955.jpg">
-    <img src="../robot_factory-master/assets/images/galerie/s4/20190315_150955.jpg" alt="Mountains" width="800" height="600">
+  <a target="_blank" href="assets/images/gallery/sezon_3/6.jpg">
+    <img src="assets/images/gallery/sezon_3/6.jpg" alt="of nu merge poza" width="600" height="400">
   </a>
-  <div class="desc">Add a description of the image here</div>
+				</div>
 </div>
-
-	</section>
+<div class="col-sm-6 col-lg-4">
+      <div class="gallery">
+  <a target="_blank" href="assets/images/gallery/sezon_3/7.jpg">
+    <img src="assets/images/gallery/sezon_3/7.jpg" alt="of nu merge poza" width="600" height="400">
+  </a>
+  
+</div>
+		  </div>
+			 <div class="col-sm-6 col-lg-4">
+	<div class="gallery">
+  <a target="_blank" href="assets/images/gallery/sezon_3/8.jpg">
+    <img src="assets/images/gallery/sezon_3/8.jpg" alt="of nu merge poza" width="600" height="400">
+  </a>
+			   </div>
+</div>
+			 <div class="col-sm-6 col-lg-4">
+	<div class="gallery">
+  <a target="_blank" href="assets/images/gallery/sezon_3/9.jpg">
+    <img src="assets/images/gallery/sezon_3/9.jpg" alt="of nu merge poza" width="600" height="400">
+  </a>
+			   </div>
+</div>
+		  <div class="col-sm-6 col-lg-4">
+	<div class="gallery">
+  <a target="_blank" href="assets/images/gallery/sezon_3/10.jpg">
+    <img src="assets/images/gallery/sezon_3/10.jpg" alt="of nu merge poza" width="600" height="400">
+  </a>
+			</div>
+</div>
+			 <div class="col-sm-6 col-lg-4">
+	<div class="gallery">
+  <a target="_blank" href="assets/images/gallery/sezon_3/11.jpg">
+    <img src="assets/images/gallery/sezon_3/11.jpg" alt="of nu merge poza" width="600" height="400">
+  </a>
+			   </div>
+</div>
+		  <div class="col-sm-6 col-lg-4">
+	<div class="gallery">
+  <a target="_blank" href="assets/images/gallery/sezon_3/12.jpg">
+    <img src="assets/images/gallery/sezon_3/12.jpg" alt="of nu merge poza" width="600" height="400">
+  </a>
+		    </div>
+</div>
+			<div class="col-sm-6 col-lg-4">
+	<div class="gallery">
+  <a target="_blank" href="assets/images/gallery/sezon_3/13.jpg">
+    <img src="assets/images/gallery/sezon_3/13.jpg" alt="of nu merge poza" width="600" height="400">
+  </a>
+				</div>
+</div>
+			<div class="col-sm-6 col-lg-4">
+	<div class="gallery">
+  <a target="_blank" href="assets/images/gallery/sezon_3/14.jpg">
+    <img src="assets/images/gallery/sezon_3/14.jpg" alt="of nu merge poza" width="600" height="400">
+  </a>
+				</div>
+</div>
+			<div class="col-sm-6 col-lg-4">
+	<div class="gallery">
+  <a target="_blank" href="assets/images/gallery/sezon_3/15.jpg">
+    <img src="assets/images/gallery/sezon_3/15.jpg" alt="of nu merge poza" width="600" height="400">
+  </a>
+				</div>
+  
+</div>
+			<div class="col-sm-6 col-lg-4">
+	<div class="gallery">
+  <a target="_blank" href="assets/images/gallery/sezon_3/16.jpg">
+    <img src="assets/images/gallery/sezon_3/16.jpg" alt="of nu merge poza" width="600" height="400">
+  </a>
+				</div>
+</div>
+			<div class="col-sm-6 col-lg-4">
+	<div class="gallery">
+  <a target="_blank" href="assets/images/gallery/sezon_3/17.jpg">
+    <img src="assets/images/gallery/sezon_3/17.jpg" alt="of nu merge poza" width="600" height="400">
+  </a>
+				</div>
+</div>
+			<div class="col-sm-6 col-lg-4">	
+	<div class="gallery">
+  <a target="_blank" href="assets/images/gallery/sezon_3/18.jpg">
+    <img src="assets/images/gallery/sezon_3/18.jpg" alt="of nu merge poza" width="600" height="400">
+  </a>
+				</div>
+</div>
+<div class="col-sm-6 col-lg-4">
+<div class="gallery">
+  <a target="_blank" href="assets/images/gallery/sezon_4/1.jpg">
+    <img src="assets/images/gallery/sezon_4/1.jpg" alt="of nu merge poza" width="600" height="400">
+  </a>
+</div>			 
+			</div>
+		<div class="col-sm-6 col-lg-4">
+<div class="gallery">
+  <a target="_blank" href="assets/images/gallery/sezon_4/2.jpg">
+    <img src="assets/images/gallery/sezon_4/2.jpg" alt="of nu merge poza" width="600" height="400">
+  </a>
+</div>			 
+			</div>
+		<div class="col-sm-6 col-lg-4">
+<div class="gallery">
+  <a target="_blank" href="assets/images/gallery/sezon_4/3.jpg">
+    <img src="assets/images/gallery/sezon_4/3.jpg" alt="of nu merge poza" width="600" height="400">
+  </a>
+</div>			 
+			</div>
+		<div class="col-sm-6 col-lg-4">
+<div class="gallery">
+  <a target="_blank" href="assets/images/gallery/sezon_4/4.jpg">
+    <img src="assets/images/gallery/sezon_4/4.jpg" alt="of nu merge poza" width="600" height="400">
+  </a>
+</div>			 
+			</div>
+		<div class="col-sm-6 col-lg-4">
+<div class="gallery">
+  <a target="_blank" href="assets/images/gallery/sezon_4/5.jpg">
+    <img src="assets/images/gallery/sezon_4/5.jpg" alt="of nu merge poza" width="600" height="400">
+  </a>
+</div>			 
+			</div>
+		<div class="col-sm-6 col-lg-4">
+<div class="gallery">
+  <a target="_blank" href="assets/images/gallery/sezon_4/6.jpg">
+    <img src="assets/images/gallery/sezon_4/6.jpg" alt="of nu merge poza" width="600" height="400">
+  </a>
+</div>			 
+			</div>
+		<div class="col-sm-6 col-lg-4">
+<div class="gallery">
+  <a target="_blank" href="assets/images/gallery/sezon_4/7.jpg">
+    <img src="assets/images/gallery/sezon_4/7.jpg" alt="of nu merge poza" width="600" height="400">
+  </a>
+</div>			 
+			</div>
+		<div class="col-sm-6 col-lg-4">
+<div class="gallery">
+  <a target="_blank" href="assets/images/gallery/sezon_4/8.jpg">
+    <img src="assets/images/gallery/sezon_4/8.jpg" alt="of nu merge poza" width="600" height="400">
+  </a>
+</div>			 
+			</div>
+		<div class="col-sm-6 col-lg-4">
+<div class="gallery">
+  <a target="_blank" href="assets/images/gallery/sezon_4/9.jpg">
+    <img src="assets/images/gallery/sezon_4/9.jpg" alt="of nu merge poza" width="600" height="400">
+  </a>
+</div>			 
+			</div>
+		<div class="col-sm-6 col-lg-4">
+<div class="gallery">
+  <a target="_blank" href="assets/images/gallery/sezon_4/10.jpg">
+    <img src="assets/images/gallery/sezon_4/10.jpg" alt="of nu merge poza" width="600" height="400">
+  </a>
+</div>			 
+			</div>
+		<div class="col-sm-6 col-lg-4">
+<div class="gallery">
+  <a target="_blank" href="assets/images/gallery/sezon_4/11.jpg">
+    <img src="assets/images/gallery/sezon_4/11.jpg" alt="of nu merge poza" width="600" height="400">
+  </a>
+</div>			 
+			</div>
+		<div class="col-sm-6 col-lg-4">
+<div class="gallery">
+  <a target="_blank" href="assets/images/gallery/sezon_4/12.jpg">
+    <img src="assets/images/gallery/sezon_4/12.jpg" alt="of nu merge poza" width="600" height="400">
+  </a>
+</div>			 
+			</div>
+		<div class="col-sm-6 col-lg-4">
+<div class="gallery">
+  <a target="_blank" href="assets/images/gallery/sezon_4/13.jpg">
+    <img src="assets/images/gallery/sezon_4/13.jpg" alt="of nu merge poza" width="600" height="400">
+  </a>
+</div>			 
+			</div>
+		
+</section>
     <!-- Footer -->
         <section id="footer-widget" class="footer-widget">
             <div class="container header-bg"> 
