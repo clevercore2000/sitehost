@@ -148,7 +148,6 @@ body{
 }
 .header-quote{
 	color: #FFFFFF;
-	font-weight: 700;
 	margin-bottom: 0;
 		font-family:'sheeping_cats_straightregular';
 }
@@ -158,7 +157,7 @@ body{
 	letter-spacing: 6px;
 }
 .header-title{
-	font-weight: 700;
+	font-weight: 200;
 	font-family: 'sheeping_catsregular';
 }
 .header-title .thin{
@@ -459,10 +458,15 @@ div.sava h4{
 .stl-header .intro{
 	background-image: url("../images/header-about.png");
 }
+.gallery-header .intro{
+	background-image: url("../images/echipa.jpeg");
+}
 .about .page-bgc{
 	padding-bottom: 0;
 }
-
+.events-header .intro{
+	background-image: url("../images/events.jpeg");
+}
 
 
 
