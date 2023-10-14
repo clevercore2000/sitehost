@@ -542,6 +542,56 @@ div.sava h4{
 .panel-group .panel:last-child{
 	border-bottom: 1px solid #111;
 }
+.button-gallery{
+  background: #001348;
+  border-radius: 999px;
+  box-shadow: #001348 0 10px 20px -10px;
+  box-sizing: border-box;
+  color: #8EABF5;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 8px 18px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+  word-break: break-word;
+  border: 0;
+}
+
+.button-gallery:hover {
+	background-color: #001348;
+	transform: scale(1.2) perspective(1px)
+  }
+.button-gallery-clicked {
+	background: #8EABF5;
+  border-radius: 999px;
+  box-shadow: #8EABF5 0 10px 20px -10px;
+  box-sizing: border-box;
+  color: #001348;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 8px 18px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+  word-break: break-word;
+  border: 0;
+}
+
+.button-gallery-clicked:hover {
+	background-color: #8EABF5;
+	transform: scale(1.2) perspective(1px)
+  }
 
 
 
