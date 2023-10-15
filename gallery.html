@@ -141,11 +141,12 @@
   <h4>&nbsp;</h4>
 
   <ol style="text-align: center;">
-    <button class="button-gallery-clicked" onclick="toggle(this);" style="margin-right: 15px;" id="buttonSez3">Sezonul
-      3</button>
-    <button class="button-gallery" onclick="toggle(this);" style="margin-right: 15px;" id="buttonSez4">Sezonul
-      4</button>
-    <button class="button-gallery" onclick="toggle(this);" id="buttonSez6">Sezonul 6</button>
+    <button class="button-gallery-clicked" onclick="toggle(this);" style="margin-right: 15px;" id="buttonSez3">Rover
+      Ruckus</button>
+    <button class="button-gallery" onclick="toggle(this);" style="margin-right: 15px;" id="buttonSez4">Skystone</button>
+    <button class="button-gallery" onclick="toggle(this);" style="margin-right: 15px;" id="buttonSez5">Ultimate
+      Goal</button>
+    <button class="button-gallery" onclick="toggle(this);" id="buttonSez6">Fright Frenzy</button>
   </ol>
 
   <div id="myDiv">
@@ -286,6 +287,7 @@
     const button1 = document.getElementById('buttonSez3');
     const button2 = document.getElementById('buttonSez4');
     const button3 = document.getElementById('buttonSez6');
+    const button4 = document.getElementById('buttonSez5');
     const div = document.getElementById('myDiv');
 
     function changeContent1() {
@@ -522,27 +524,6 @@
       div.innerHTML =
         `
       <section class="faq">
-      <div class="col-sm-6 col-lg-4">
-      <div class="gallery">
-        <a target="_blank" href="assets/images/gallery/sezon_6/5.jpg">
-          <img src="assets/images/gallery/sezon_6/5.jpg" alt="of nu merge poza" width="600" height="400">
-        </a>
-      </div>
-    </div>
-    <div class="col-sm-6 col-lg-4">
-      <div class="gallery">
-        <a target="_blank" href="assets/images/gallery/sezon_6/6.jpg">
-          <img src="assets/images/gallery/sezon_6/6.jpg" alt="of nu merge poza" width="600" height="400">
-        </a>
-      </div>
-    </div>
-    <div class="col-sm-6 col-lg-4">
-      <div class="gallery">
-        <a target="_blank" href="assets/images/gallery/sezon_6/7.jpg">
-          <img src="assets/images/gallery/sezon_6/7.jpg" alt="of nu merge poza" width="600" height="400">
-        </a>
-      </div>
-    </div>
     <div class="col-sm-6 col-lg-4">
       <div class="gallery">
         <a target="_blank" href="assets/images/gallery/sezon_6/8.jpg">
@@ -747,10 +728,38 @@
       <h4>&nbsp;</h4>
       <h4>&nbsp;</h4>`;
     }
+    function changeContent4() {
+      div.innerHTML =
+        `
+          <section class="faq">
+          <div class="col-sm-6 col-lg-4">
+      <div class="gallery">
+        <a target="_blank" href="assets/images/gallery/sezon_5/5.jpg">
+          <img src="assets/images/gallery/sezon_5/5.jpg" alt="of nu merge poza" width="600" height="400">
+        </a>
+      </div>
+    </div>
+    <div class="col-sm-6 col-lg-4">
+      <div class="gallery">
+        <a target="_blank" href="assets/images/gallery/sezon_5/6.jpg">
+          <img src="assets/images/gallery/sezon_5/6.jpg" alt="of nu merge poza" width="600" height="400">
+        </a>
+      </div>
+    </div>
+    <div class="col-sm-6 col-lg-4">
+      <div class="gallery">
+        <a target="_blank" href="assets/images/gallery/sezon_5/7.jpg">
+          <img src="assets/images/gallery/sezon_5/7.jpg" alt="of nu merge poza" width="600" height="400">
+        </a>
+      </div>
+    </div>
+    </section>`
+    }
     button1.addEventListener('click', changeContent1);
     button2.addEventListener('click', changeContent2);
     button3.addEventListener('click', changeContent3);
-    
+    button4.addEventListener('click', changeContent4);
+
     function toggle(btn) {
       var btnArray = document.querySelectorAll(".button-gallery,.button-gallery-clicked");
       for (i = 0; i < btnArray.length; i++) {
