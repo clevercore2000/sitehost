@@ -736,6 +736,18 @@ div.sava h4{
   white-space: nowrap;
 }
 
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	height: 0;
+  }
+  .videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+  }
 .button-65:hover {
   background-color: #1366d6;
   box-shadow: rgba(0, 0, 0, .05) 0 5px 30px, rgba(0, 0, 0, .05) 0 1px 4px;
