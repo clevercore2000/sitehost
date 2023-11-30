@@ -1,3 +1,9 @@
+/*======================================================================
+##		Fonts
+=======================================================================*/
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');	
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
 body{
 	background-color: #28476B;
 	font-family: 'Oswald';
@@ -63,6 +69,7 @@ body{
 	text-align: center;
 	padding: 100px 0 50px;
 	text-transform: uppercase;
+	color: #000000;
 }
 .title-box p{
 	margin-bottom: 0;
@@ -72,6 +79,7 @@ body{
 	color: #000000;
 	font-size: 36px;
 	letter-spacing: 2px;
+	text-align: center;
 }
 .title.mt0{
 	text-transform: capitalize;
@@ -99,6 +107,15 @@ body{
 	color: #0131b4;
 	border-color: #0131b4;
 }
+.mtxt {
+	color: #5e6367;
+	font-family: 'Oswald', sans-serif;
+}
+.mtxt2{
+	color: #5e6367;
+	font-family: 'Oswald', sans-serif;
+	font-size: 16px;
+}
 
 
 
@@ -108,7 +125,7 @@ body{
 =======================================================================*/
 .site-header-bg{
 	width: 100%;
-	background-color: #001348;
+	background-color: #133C64;
 	z-index: 1;
 	padding: 30px 0;
 	color: #b2c1e8;
@@ -143,7 +160,7 @@ body{
 	text-align: center;
 	color: #fff;
 	letter-spacing: 3px;
-	background: #001348;
+	background: #133C64;
 	position: relative;
 }
 .header-quote{
@@ -172,9 +189,10 @@ body{
     margin-bottom: -90px;
     z-index: 11;
     position: relative;
+	background-color: #133C64;
 }
 .nutral{
-	background-color: #28476B;
+	background-color: #133C64;
 	height: 90px;
 	z-index: 10;
 	position: relative;
@@ -201,13 +219,12 @@ body{
 .navbar .navbar-collapse {
     text-align: center;
 	font-size:18px;
+	background-color: #BBC1C6;
 }
 .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
 	color: #232323;
 	font-size:18px;
 }
-
-
 
 
 /*======================================================================
@@ -216,6 +233,7 @@ body{
 .footer-widget{
 	padding: 80px 0;
 	border-bottom: 1px solid rgba(153, 153, 153, 0.3);
+	background: #133C64;
 }
 .footer-widget .section-bg{
 	background-color: #ebebeb;
@@ -259,6 +277,7 @@ body{
 }
 .footer{
 	padding: 10px 0 20px;
+	background-color: #133C64;
 }
 .footer h3, .footer a{
 	color: #999;
@@ -286,7 +305,7 @@ div.sava h4{
 ##		Product Section
 =======================================================================*/
 .product .section-bg{
-	background-color: #b2c1e8;
+	background-color: #BBC1C6;
 }
 .porduct-box{
 	margin-bottom: 30px;
@@ -355,6 +374,9 @@ div.sava h4{
 		padding: 0 80px;
 	}
 }
+.product{
+	background-color: #133C64;
+}
 
 
 
@@ -363,7 +385,7 @@ div.sava h4{
 ##		History Section
 =======================================================================*/
 .history .section-bg{
-	background-color: #b2c1e8;
+	background-color: #BBC1C6;
 	text-align: center;
 }
 .history p{
@@ -375,6 +397,9 @@ div.sava h4{
 .history img{
 	padding: 60px 0 0;
 }
+.history{
+	background-color: #133C64;
+}
 
 
 
@@ -382,12 +407,15 @@ div.sava h4{
 ##		Partner Section
 =======================================================================*/
 .partner .section-bg{
-	background-color: #b2c1e8;
+	background-color: #BBC1C6;
 	text-align: center;
 	padding-bottom: 80px;
 }
 .partner .title{
 	color: #111;
+}
+.partner{
+	background-color: #133C64;
 }
 
 
@@ -404,6 +432,7 @@ div.sava h4{
 =======================================================================*/
 .inner-header .intro{
 	padding: 100px 0;
+	background-color: #133C64;
 }
 .overlay{
 	position: absolute;
@@ -430,15 +459,21 @@ div.sava h4{
 .inner-p{
 	text-align: center;
 	margin-bottom: 80px;
-	font-size: 16px;
+	font-size: 24px;
+	color: #5e6367;
+	font-family: 'Oswald', sans-serif;
 }
 .page-bgc{
-	background-color: #b2c1e8;
+	background-color: #BBC1C6;
 	padding-bottom: 100px;
+
 }
 
 .intro{
 	background-color: #313131;
+}
+.faq {
+	background-color: #133C64;
 }
 .faq-header .intro{
 	background-image: url("../images/header-faq.png");
@@ -451,6 +486,7 @@ div.sava h4{
 }
 .about-header .intro{
 	background-image: url("../images/about-header.png");
+	background-color: #133C64;
 }
 .fll-header .intro{
 	background-image: url("../images/1060x480_FLL_tournament.png");
@@ -459,13 +495,17 @@ div.sava h4{
 	background-image: url("../images/header-about.png");
 }
 .gallery-header .intro{
-	background-image: url("../images/echipa.jpeg");
+	background-image: url("../images/echipa3.jpg");
 }
 .about .page-bgc{
 	padding-bottom: 0;
+	background-color: #BBC1C6;
 }
 .events-header .intro{
 	background-image: url("../images/events.jpeg");
+}
+.about{
+	background-color: #133C64;
 }
 
 
@@ -663,6 +703,71 @@ div.sava h4{
 	background-color: #0131b4;
 }
 
+/* CSS */
+.button-65 {
+  appearance: none;
+  backface-visibility: hidden;
+  background-color: #435B8A;
+  border-radius: 10px;
+  border-style: none;
+  box-shadow: none;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Inter,-apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  height: 50px;
+  letter-spacing: normal;
+  line-height: 1.5;
+  outline: none;
+  overflow: hidden;
+  padding: 14px 30px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transform: translate3d(0, 0, 0);
+  transition: all .3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: top;
+  white-space: nowrap;
+}
+
+.button-65:hover {
+  background-color: #1366d6;
+  box-shadow: rgba(0, 0, 0, .05) 0 5px 30px, rgba(0, 0, 0, .05) 0 1px 4px;
+  opacity: 1;
+  transform: translateY(0);
+  transition-duration: .35s;
+}
+
+.galleryyes{
+	background-color: #133C64;
+}
+.button-65:hover:after {
+  opacity: .5;
+}
+
+.button-65:active {
+  box-shadow: rgba(0, 0, 0, .1) 0 3px 6px 0, rgba(0, 0, 0, .1) 0 0 10px 0, rgba(0, 0, 0, .1) 0 1px 4px -1px;
+  transform: translateY(2px);
+  transition-duration: .35s;
+}
+
+.button-65:active:after {
+  opacity: 1;
+}
+
+@media (min-width: 768px) {
+  .button-65 {
+    padding: 14px 22px;
+    width: 176px;
+  }
+}
+
 
 
 
@@ -674,10 +779,14 @@ div.sava h4{
 	height: 400px;
 	margin-bottom: 30px;
 }
+
 .contact h4, .contact h5{
 	font-family: 'Roboto';
 	text-transform: uppercase;
 	font-weight: 400;
+}
+.contact{
+	background-color: #133C64;
 }
 .contact h5{
 	margin: 0;
@@ -788,6 +897,7 @@ div.sava h4{
 .m-p-title{
 	text-transform: capitalize;
 	margin: 0 0 20px;
+	font-family: 'Abril Fatface', serif;
 }
 .machine-man p{
 	margin-bottom: 100px;
